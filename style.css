@@ -1,0 +1,69 @@
+body {
+    height:      100%;
+    width:       100%;
+    overflow:    auto;
+    font-family: Lato;
+    font-size:   14pt;
+}
+
+.info {
+    position:         absolute;
+    left:             0pt;
+    width:            100%;
+    top:              200%;
+    color:            #aaa;
+    background-color: #4d4d4d;
+    z-index:          4;
+    text-align:       center;
+    padding-bottom:   1em;
+}
+
+.main {
+    position:    fixed;
+    left:        50%;
+    top:         50%;
+    width:       800px;
+    height:      415.9px;
+    margin-left: -400px;
+    margin-top:  -208px;
+    z-index:     1;
+}
+
+.main-bg {
+    position:    absolute;
+    left:        0px;
+    top:         0px;
+    width:       100%;
+    height:      100%;
+    background:  white;
+    z-index:     0;
+}
+
+.second {
+    position:    absolute;
+    left:        0px;
+    top:         100%;
+    width:       100%;
+    height:      100%;
+    background:  #4d4d4d;
+    color:       #ccc;
+    z-index:     2;
+    font-size:   31pt;
+    text-align:  center;
+    line-height: 3em;
+}
+
+.second-title {
+    color:         #eee;
+    font-size:     60pt;
+    margin-bottom: -52pt;
+}
+
+.second-band {
+    position:            absolute;
+    left:                0px;
+    top:                 1em;
+    width:               100%;
+    background:          #4d4d4d;
+    z-index:             3;
+}
