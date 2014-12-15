@@ -7,15 +7,14 @@ body {
 }
 
 .info {
-    position:         absolute;
-    left:             0pt;
-    width:            100%;
-    top:              200%;
-    color:            #aaa;
-    background-color: #4d4d4d;
-    z-index:          4;
-    text-align:       center;
-    padding-bottom:   1em;
+    position: relative;
+    top: 500px;
+    color: #aaa;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 12pt;
+    padding-bottom: 0px;
+    height: 1em;
 }
 
 .main {
@@ -51,6 +50,7 @@ body {
     font-size:   31pt;
     text-align:  center;
     line-height: 3em;
+    min-height:  600px;
 }
 
 .second-title {
@@ -62,17 +62,17 @@ body {
 .second-band {
     position:            absolute;
     left:                0px;
-    top:                 1em;
+    top:                 0.5em;
     width:               100%;
     background:          #4d4d4d;
     z-index:             3;
 }
 
 #demo {
-    position: absolute;
-    top: 5.5em;
-    left: 50%;
+    position:    absolute;
+    top:         5.0em;
+    left:        50%;
     margin-left: -300px;
-    width: 600px;
-    height: 400px;
+    width:       600px;
+    height:      300px;
 }
