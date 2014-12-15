@@ -70,8 +70,9 @@ body {
 
 #demo {
     position: absolute;
-    top: 50%;
+    top: 5.5em;
     left: 50%;
     margin-left: -300px;
-    margin-top: -200px;
+    width: 600px;
+    height: 400px;
 }
