@@ -76,5 +76,8 @@ body {
     margin-left: -300px;
     width:       600px;
     height:      300px;
-    box-shadow:  4px 4px 9px -4px rgba(0, 0, 0, 1.0);
+    box-shadow:  5px 5px 30px -3px rgba(0, 0, 0, 1.0);
+    border-radius: 3px;
+    padding: 2px;
+    background: black;
 }
